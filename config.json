@@ -1,0 +1,10 @@
+{
+    "imap_host": "imap.mail.me.com",
+    "imap_port": 993,
+    "trigger_port": 18924,
+    "email_poll_interval": 1,
+    "email_poll_timeout": 1800,
+    "cooldown_seconds": 60,
+    "otp_sender_fragment": "LiveCamp",
+    "notification_sound": "C:\\Windows\\Media\\Alarm06.wav"
+}

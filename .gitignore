@@ -1,0 +1,3 @@
+python-manager-*.msix
+.claude/
+__pycache__/

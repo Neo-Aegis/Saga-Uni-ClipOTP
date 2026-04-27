@@ -1,0 +1,526 @@
+2026-04-18 22:58:25,732 [INFO] OTP Watcher 起動 (メール: kotakotalailac@icloud.com)
+2026-04-18 23:08:03,722 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-18 23:08:03,723 [INFO] OTP Watcher 終了。
+2026-04-18 23:08:20,902 [INFO] OTP Watcher 起動 (メール: kotakotalailac@icloud.com)
+2026-04-18 23:11:36,614 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-18 23:11:39,864 [ERROR] IMAPエラー: 'int' object has no attribute 'decode'
+2026-04-18 23:11:40,075 [ERROR] メール取得中に予期しないエラー: 'int' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "C:\Users\kotta\Documents\Pythonコード\佐大ログイン\otp_watcher.pyw", line 458, in main
+    otp = fetch_otp_from_imap(config, email_addr, app_password, saml_trigger_time)
+  File "C:\Users\kotta\Documents\Pythonコード\佐大ログイン\otp_watcher.pyw", line 247, in fetch_otp_from_imap
+    msg = email_mod.message_from_bytes(msg_data[0][1])
+  File "C:\Users\kotta\AppData\Local\Python\pythoncore-3.14-64\Lib\email\__init__.py", line 45, in message_from_bytes
+    return BytesParser(*args, **kws).parsebytes(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\kotta\AppData\Local\Python\pythoncore-3.14-64\Lib\email\parser.py", line 118, in parsebytes
+    text = text.decode('ASCII', errors='surrogateescape')
+           ^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'decode'
+2026-04-18 23:11:45,344 [ERROR] IMAPエラー: 'int' object has no attribute 'decode'
+2026-04-18 23:11:45,549 [ERROR] メール取得中に予期しないエラー: 'int' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "C:\Users\kotta\Documents\Pythonコード\佐大ログイン\otp_watcher.pyw", line 458, in main
+    otp = fetch_otp_from_imap(config, email_addr, app_password, saml_trigger_time)
+  File "C:\Users\kotta\Documents\Pythonコード\佐大ログイン\otp_watcher.pyw", line 247, in fetch_otp_from_imap
+    msg = email_mod.message_from_bytes(msg_data[0][1])
+  File "C:\Users\kotta\AppData\Local\Python\pythoncore-3.14-64\Lib\email\__init__.py", line 45, in message_from_bytes
+    return BytesParser(*args, **kws).parsebytes(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\kotta\AppData\Local\Python\pythoncore-3.14-64\Lib\email\parser.py", line 118, in parsebytes
+    text = text.decode('ASCII', errors='surrogateescape')
+           ^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'decode'
+2026-04-18 23:11:50,464 [ERROR] IMAPエラー: 'int' object has no attribute 'decode'
+2026-04-18 23:11:50,671 [ERROR] メール取得中に予期しないエラー: 'int' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "C:\Users\kotta\Documents\Pythonコード\佐大ログイン\otp_watcher.pyw", line 458, in main
+    otp = fetch_otp_from_imap(config, email_addr, app_password, saml_trigger_time)
+  File "C:\Users\kotta\Documents\Pythonコード\佐大ログイン\otp_watcher.pyw", line 247, in fetch_otp_from_imap
+    msg = email_mod.message_from_bytes(msg_data[0][1])
+  File "C:\Users\kotta\AppData\Local\Python\pythoncore-3.14-64\Lib\email\__init__.py", line 45, in message_from_bytes
+    return BytesParser(*args, **kws).parsebytes(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\kotta\AppData\Local\Python\pythoncore-3.14-64\Lib\email\parser.py", line 118, in parsebytes
+    text = text.decode('ASCII', errors='surrogateescape')
+           ^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'decode'
+2026-04-18 23:20:38,699 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-18 23:20:38,700 [INFO] OTP Watcher 終了。
+2026-04-18 23:20:40,824 [INFO] OTP Watcher 起動 (メール: kotakotalailac@icloud.com)
+2026-04-18 23:20:50,852 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-18 23:21:28,059 [INFO] OTPをクリップボードにコピーしました: 87****
+2026-04-18 23:22:28,077 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-18 23:27:50,376 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-18 23:27:50,377 [INFO] OTP Watcher 終了。
+2026-04-18 23:31:53,881 [INFO] OTP Watcher 起動 (メール: kotakotalailac@icloud.com)
+2026-04-18 23:32:38,254 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-18 23:32:39,719 [INFO] IMAP接続確立。
+2026-04-19 00:02:43,369 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-19 01:16:27,321 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-19 01:16:27,322 [INFO] OTP Watcher 終了。
+2026-04-19 01:16:29,363 [INFO] OTP Watcher 起動 (メール: kotakotalailac@icloud.com)
+2026-04-19 01:22:28,788 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-19 01:22:28,789 [INFO] OTP Watcher 終了。
+2026-04-19 01:22:30,544 [INFO] OTP Watcher 起動 (メール: kotakotalailac@icloud.com)
+2026-04-19 01:29:08,660 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-19 01:29:08,661 [INFO] OTP Watcher 終了。
+2026-04-19 01:29:12,004 [INFO] OTP Watcher 起動 (メール: kotakotalailac@icloud.com)
+2026-04-19 01:29:12,015 [INFO] 初期visit_time: Floorp=1776522093230000, Brave=13421003336114596
+2026-04-19 01:29:28,188 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 01:29:29,780 [INFO] IMAP接続確立。
+2026-04-19 01:29:42,312 [INFO] OTPをクリップボードにコピーしました: 28****
+2026-04-19 01:30:42,343 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 01:30:43,818 [INFO] IMAP接続確立。
+2026-04-19 01:31:15,766 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-19 01:31:15,972 [INFO] OTP Watcher 終了。
+2026-04-19 01:31:17,722 [INFO] OTP Watcher 起動 (メール: kotakotalailac@icloud.com)
+2026-04-19 01:31:17,732 [INFO] 初期visit_time: Floorp=1776522093230000, Brave=13421003387198286
+2026-04-19 01:31:39,909 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 01:31:41,134 [INFO] IMAP接続確立。
+2026-04-19 01:35:53,582 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-19 01:35:53,787 [INFO] OTP Watcher 終了。
+2026-04-19 01:35:59,490 [INFO] OTP Watcher 起動 (メール: kotakotalailac@icloud.com)
+2026-04-19 01:35:59,501 [INFO] 初期visit_time: Floorp=1776529886929000, Brave=13421003682627668
+2026-04-19 01:36:30,124 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 01:36:35,158 [INFO] IMAP接続確立。
+2026-04-19 01:36:37,046 [INFO] OTPをクリップボードにコピーしました: 16****
+2026-04-19 01:37:37,097 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 01:37:38,544 [INFO] IMAP接続確立。
+2026-04-19 01:45:21,604 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-19 01:45:21,810 [INFO] OTP Watcher 終了。
+2026-04-19 01:45:24,670 [INFO] OTP Watcher 起動 (メール: kotakotalailac@icloud.com)
+2026-04-19 01:45:24,681 [INFO] 初期visit_time: Floorp=1776529886929000, Brave=13421003800260738
+2026-04-19 01:45:27,032 [INFO] IMAP接続確立。
+2026-04-19 01:45:42,070 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-19 01:45:42,599 [INFO] OTP Watcher 終了。
+2026-04-19 01:46:17,135 [INFO] OTP Watcher 起動 (メール: kotakotalailac@icloud.com)
+2026-04-19 01:46:17,146 [INFO] 初期visit_time: Floorp=1776529886929000, Brave=13421004334928219
+2026-04-19 01:46:19,572 [INFO] IMAP接続確立。
+2026-04-19 01:46:47,067 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 01:49:29,647 [INFO] OTPをクリップボードにコピーしました: 61****
+2026-04-19 01:50:29,692 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 01:51:47,971 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-19 01:51:48,173 [INFO] OTP Watcher 終了。
+2026-04-19 01:51:52,332 [INFO] OTP Watcher 起動 (メール: kotakotalailac@icloud.com)
+2026-04-19 01:51:52,344 [INFO] 初期visit_time: Floorp=1776529886929000, Brave=13420437549522302
+2026-04-19 01:51:53,694 [INFO] IMAP接続確立。
+2026-04-19 01:52:06,979 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 01:52:08,199 [INFO] OTPをクリップボードにコピーしました: 95****
+2026-04-19 01:53:08,238 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 02:23:08,683 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-19 02:23:18,669 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-19 02:23:18,918 [INFO] OTP Watcher 終了。
+2026-04-19 02:23:21,022 [INFO] OTP Watcher v2 起動 (メール: kotakotalailac@icloud.com, ポート: 18924)
+2026-04-19 02:23:29,466 [INFO] IMAP接続確立。
+2026-04-19 02:34:39,516 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-19 02:34:40,094 [INFO] OTP Watcher 終了。
+2026-04-19 02:34:41,823 [INFO] OTP Watcher v2 起動 (メール: kotakotalailac@icloud.com, ポート: 18924)
+2026-04-19 02:34:43,554 [INFO] IMAP接続確立。
+2026-04-19 02:34:48,229 [INFO] 拡張機能からトリガー受信。
+2026-04-19 02:34:48,229 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 02:34:49,201 [INFO] 拡張機能からトリガー受信。
+2026-04-19 02:34:58,580 [INFO] OTPをクリップボードにコピーしました: 84****
+2026-04-19 02:34:58,581 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 02:35:04,255 [INFO] 拡張機能からトリガー受信。
+2026-04-19 02:35:04,255 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 02:35:04,503 [INFO] 拡張機能からトリガー受信。
+2026-04-19 02:35:04,503 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 02:42:19,557 [INFO] シャットダウンシグナル受信 (2)。終了します。
+2026-04-19 02:42:19,980 [INFO] OTP Watcher 終了。
+2026-04-19 02:42:22,376 [INFO] OTP Watcher v2 起動 (メール: kotakotalailac@icloud.com, ポート: 18924)
+2026-04-19 02:42:24,908 [INFO] IMAP接続確立。
+2026-04-19 02:42:25,781 [INFO] 拡張機能からトリガー受信。
+2026-04-19 02:42:25,781 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 02:42:25,988 [INFO] 拡張機能からトリガー受信。
+2026-04-19 02:42:27,775 [INFO] 拡張機能からトリガー受信。
+2026-04-19 02:42:37,540 [INFO] OTPをクリップボードにコピーしました: 76****
+2026-04-19 02:42:37,541 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 02:42:40,542 [INFO] 拡張機能からトリガー受信。
+2026-04-19 02:42:40,543 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 02:42:41,269 [INFO] 拡張機能からトリガー受信。
+2026-04-19 02:42:41,269 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 11:59:55,229 [INFO] OTP Watcher v2 起動 (メール: kotakotalailac@icloud.com, ポート: 18924)
+2026-04-19 11:59:57,052 [INFO] IMAP接続確立。
+2026-04-19 12:06:04,273 [INFO] OTP Watcher v2 起動 (メール: kotakotalailac@icloud.com, ポート: 18924)
+2026-04-19 12:06:05,592 [INFO] IMAP接続確立。
+2026-04-19 12:06:33,218 [INFO] 拡張機能からトリガー受信。
+2026-04-19 12:06:33,218 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 12:06:33,220 [WARNING] IMAPポーリングエラー: socket error: [WinError 10054] 既存の接続はリモート ホストに強制的に切断されました。。再接続します。
+2026-04-19 12:06:35,132 [INFO] IMAP接続確立。
+2026-04-19 12:06:41,519 [INFO] 拡張機能からトリガー受信。
+2026-04-19 12:06:42,595 [INFO] 拡張機能からトリガー受信。
+2026-04-19 12:06:50,103 [INFO] OTPをクリップボードにコピーしました: 94****
+2026-04-19 12:06:50,103 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 12:06:53,889 [INFO] 拡張機能からトリガー受信。
+2026-04-19 12:06:53,889 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 12:06:54,127 [INFO] 拡張機能からトリガー受信。
+2026-04-19 12:06:54,127 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 12:12:50,289 [INFO] 拡張機能からトリガー受信。
+2026-04-19 12:12:50,289 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 12:12:50,377 [INFO] 拡張機能からトリガー受信。
+2026-04-19 12:12:51,693 [INFO] 拡張機能からトリガー受信。
+2026-04-19 12:12:57,877 [INFO] OTPをクリップボードにコピーしました: 79****
+2026-04-19 12:12:57,877 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 12:12:59,506 [INFO] 拡張機能からトリガー受信。
+2026-04-19 12:12:59,506 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 12:12:59,961 [INFO] 拡張機能からトリガー受信。
+2026-04-19 12:12:59,961 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 14:29:21,347 [INFO] 拡張機能からトリガー受信。
+2026-04-19 14:29:21,347 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 14:29:21,498 [INFO] 拡張機能からトリガー受信。
+2026-04-19 14:29:56,879 [INFO] 拡張機能からトリガー受信。
+2026-04-19 14:29:57,041 [INFO] 拡張機能からトリガー受信。
+2026-04-19 14:59:22,078 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-19 14:59:22,080 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 15:10:01,276 [INFO] 拡張機能からトリガー受信。
+2026-04-19 15:10:02,232 [INFO] 拡張機能からトリガー受信。
+2026-04-19 15:10:02,896 [INFO] 拡張機能からトリガー受信。
+2026-04-19 15:14:26,184 [WARNING] IMAPポーリングエラー: [WinError 10060] 接続済みの呼び出し先が一定の時間を過ぎても正しく応答しなかったため、接続できませんでした。または接続済みのホストが応答しなかったため、確立された接続は失敗しました。。再接続します。
+2026-04-19 15:14:27,827 [INFO] IMAP接続確立。
+2026-04-19 15:22:50,113 [INFO] 拡張機能からトリガー受信。
+2026-04-19 15:29:23,235 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-19 15:29:23,245 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 15:59:23,263 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-19 16:10:06,443 [INFO] 拡張機能からトリガー受信。
+2026-04-19 16:10:06,444 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 16:10:12,868 [INFO] OTPをクリップボードにコピーしました: 39****
+2026-04-19 16:10:16,179 [INFO] 拡張機能からトリガー受信。
+2026-04-19 16:10:16,180 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 16:10:17,006 [INFO] 拡張機能からトリガー受信。
+2026-04-19 16:10:17,007 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 18:38:04,035 [INFO] 拡張機能からトリガー受信。
+2026-04-19 18:38:12,168 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-19 18:38:14,047 [INFO] IMAP接続確立。
+2026-04-19 18:38:14,048 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 18:38:15,517 [INFO] OTPをクリップボードにコピーしました: 61****
+2026-04-19 18:38:18,074 [INFO] 拡張機能からトリガー受信。
+2026-04-19 18:38:18,074 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 18:38:18,816 [INFO] 拡張機能からトリガー受信。
+2026-04-19 18:38:18,816 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-19 19:08:51,626 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-19 19:08:53,298 [INFO] IMAP接続確立。
+2026-04-19 20:35:00,321 [INFO] 拡張機能からトリガー受信。
+2026-04-19 20:35:00,321 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-19 20:35:35,956 [INFO] 拡張機能からトリガー受信。
+2026-04-19 21:05:03,010 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-19 21:05:03,010 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-20 01:18:55,923 [WARNING] IMAPポーリングエラー: socket error: [WinError 10054] 既存の接続はリモート ホストに強制的に切断されました。。再接続します。
+2026-04-20 01:18:55,931 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 01:18:55,961 [ERROR] IMAP再接続失敗。IDLEに戻ります。
+2026-04-20 01:18:57,172 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 01:18:58,184 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 01:18:59,198 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 01:19:00,209 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 01:19:09,896 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 01:19:10,911 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 01:19:11,915 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 01:19:12,927 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 01:19:13,940 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 02:40:23,445 [INFO] IMAP接続確立。
+2026-04-20 10:04:55,435 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-20 10:25:56,841 [ERROR] IMAP接続失敗: [WinError 10054] 既存の接続はリモート ホストに強制的に切断されました。
+2026-04-20 10:26:01,012 [INFO] IMAP接続確立。
+2026-04-20 11:02:23,553 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-20 11:02:29,084 [INFO] IMAP接続確立。
+2026-04-20 11:33:54,377 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-20 11:34:05,186 [INFO] IMAP接続確立。
+2026-04-20 12:25:25,808 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-20 12:25:36,322 [INFO] IMAP接続確立。
+2026-04-20 12:37:59,773 [INFO] 拡張機能からトリガー受信。
+2026-04-20 12:37:59,774 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-20 12:37:59,951 [INFO] 拡張機能からトリガー受信。
+2026-04-20 12:38:02,857 [INFO] 拡張機能からトリガー受信。
+2026-04-20 12:38:03,189 [INFO] 拡張機能からトリガー受信。
+2026-04-20 12:56:56,269 [WARNING] IMAPポーリングエラー: command: FETCH => socket error: EOF。再接続します。
+2026-04-20 12:57:02,392 [INFO] IMAP接続確立。
+2026-04-20 12:57:47,818 [INFO] 拡張機能からトリガー受信。
+2026-04-20 12:57:47,973 [INFO] 拡張機能からトリガー受信。
+2026-04-20 12:58:27,353 [INFO] 拡張機能からトリガー受信。
+2026-04-20 12:58:38,774 [INFO] OTPをクリップボードにコピーしました: 98****
+2026-04-20 12:58:38,774 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-20 12:58:43,759 [INFO] 拡張機能からトリガー受信。
+2026-04-20 12:58:43,759 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-20 12:58:45,422 [INFO] 拡張機能からトリガー受信。
+2026-04-20 12:58:45,422 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-20 13:10:32,323 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-20 13:10:44,358 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:10:45,365 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:10:46,376 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:10:47,387 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:10:48,397 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:10:49,405 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:10:50,413 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:10:51,417 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:10:52,421 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:10:53,428 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:10:54,439 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:10:55,442 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:10:56,451 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:03,451 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:04,461 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:05,470 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:06,481 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:07,489 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:20,531 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:21,546 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:22,550 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:23,554 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:24,562 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:25,563 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:26,573 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:27,580 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:35,578 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:36,590 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:37,599 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:38,609 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:39,617 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:40,632 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:41,645 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:42,655 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:43,657 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:44,670 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:45,681 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:58,727 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:11:59,741 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:12:00,749 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:12:01,756 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:12:02,764 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:12:03,771 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:12:04,795 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:12:05,802 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:12:06,811 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:12:07,826 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:12:20,887 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:12:33,926 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:12:46,988 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:13:00,046 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:13:13,105 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:13:18,366 [INFO] IMAP接続確立。
+2026-04-20 13:17:44,342 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-20 13:17:46,573 [INFO] IMAP接続確立。
+2026-04-20 13:35:38,999 [INFO] 拡張機能からトリガー受信。
+2026-04-20 13:35:38,999 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-20 13:35:40,393 [INFO] 拡張機能からトリガー受信。
+2026-04-20 13:35:41,042 [INFO] 拡張機能からトリガー受信。
+2026-04-20 13:41:18,863 [WARNING] IMAPポーリングエラー: command: NOOP => socket error: EOF。再接続します。
+2026-04-20 13:41:30,925 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:41:30,925 [ERROR] IMAP再接続失敗。IDLEに戻ります。
+2026-04-20 13:41:30,948 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-20 13:41:42,991 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:41:56,059 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:42:09,115 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 13:42:11,928 [INFO] IMAP接続確立。
+2026-04-20 13:59:25,974 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-20 13:59:31,826 [INFO] IMAP接続確立。
+2026-04-20 14:45:26,479 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-20 14:45:26,496 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 14:45:27,497 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 14:45:28,504 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 14:45:29,516 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 14:45:30,521 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 20:14:45,880 [ERROR] IMAP接続失敗: [WinError 10051] 到達できないネットワークでソケット操作を実行しようとしました。
+2026-04-20 20:14:48,915 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 20:14:49,924 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 20:14:50,933 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 20:14:51,939 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 20:14:52,947 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 20:14:53,960 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 20:14:54,974 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 20:14:55,982 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 20:14:56,998 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 20:14:58,014 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 22:31:26,511 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 22:31:27,518 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-20 22:31:32,854 [INFO] IMAP接続確立。
+2026-04-21 13:38:45,492 [INFO] OTP Watcher v2 起動 (メール: kotakotalailac@icloud.com, ポート: 18924)
+2026-04-21 13:38:47,157 [INFO] IMAP接続確立。
+2026-04-21 13:39:13,914 [INFO] 拡張機能からトリガー受信。
+2026-04-21 13:39:13,915 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-21 13:39:19,465 [WARNING] IMAPポーリングエラー: command: NOOP => socket error: EOF。再接続します。
+2026-04-21 13:39:25,484 [INFO] 拡張機能からトリガー受信。
+2026-04-21 13:39:26,788 [INFO] 拡張機能からトリガー受信。
+2026-04-21 13:39:27,327 [INFO] 拡張機能からトリガー受信。
+2026-04-21 13:39:31,517 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-21 13:39:31,534 [ERROR] IMAP再接続失敗。IDLEに戻ります。
+2026-04-21 13:39:31,546 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-21 13:39:32,959 [INFO] IMAP接続確立。
+2026-04-21 13:40:03,889 [INFO] OTPをクリップボードにコピーしました: 07****
+2026-04-21 13:40:08,511 [INFO] 拡張機能からトリガー受信。
+2026-04-21 13:40:08,512 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-21 13:40:10,923 [INFO] 拡張機能からトリガー受信。
+2026-04-21 13:40:10,923 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-21 13:40:11,186 [INFO] 拡張機能からトリガー受信。
+2026-04-21 13:40:11,186 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-21 13:43:22,092 [INFO] 拡張機能からトリガー受信。
+2026-04-21 13:43:22,093 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-21 19:57:20,706 [INFO] OTP Watcher v2 起動 (メール: kotakotalailac@icloud.com, ポート: 18924)
+2026-04-21 19:57:22,113 [INFO] IMAP接続確立。
+2026-04-21 20:37:25,176 [INFO] OTP Watcher v2 起動 (メール: kotakotalailac@icloud.com, ポート: 18924)
+2026-04-21 20:37:27,079 [INFO] IMAP接続確立。
+2026-04-21 20:41:55,450 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-21 20:41:57,831 [INFO] IMAP接続確立。
+2026-04-21 20:57:13,934 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-21 20:57:15,835 [INFO] IMAP接続確立。
+2026-04-21 21:34:11,417 [INFO] 拡張機能からトリガー受信。
+2026-04-21 21:34:12,701 [INFO] 拡張機能からトリガー受信。
+2026-04-21 21:34:13,282 [INFO] 拡張機能からトリガー受信。
+2026-04-21 21:34:28,831 [INFO] 拡張機能からトリガー受信。
+2026-04-21 21:34:28,836 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-21 21:34:31,508 [INFO] IMAP接続確立。
+2026-04-21 21:34:31,508 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-21 21:36:50,316 [INFO] OTPをクリップボードにコピーしました: 59****
+2026-04-21 21:37:00,061 [INFO] 拡張機能からトリガー受信。
+2026-04-21 21:37:00,061 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-21 21:37:00,376 [INFO] 拡張機能からトリガー受信。
+2026-04-21 21:37:00,376 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-21 21:37:31,679 [INFO] 拡張機能からトリガー受信。
+2026-04-21 21:37:31,679 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-21 21:37:31,819 [INFO] 拡張機能からトリガー受信。
+2026-04-21 21:37:31,819 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-21 21:37:38,969 [INFO] 拡張機能からトリガー受信。
+2026-04-21 21:37:38,969 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-21 22:28:55,435 [INFO] 拡張機能からトリガー受信。
+2026-04-21 22:28:57,750 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-21 22:28:59,772 [INFO] IMAP接続確立。
+2026-04-21 22:28:59,772 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-21 22:29:00,136 [INFO] 拡張機能からトリガー受信。
+2026-04-21 22:29:02,610 [INFO] 拡張機能からトリガー受信。
+2026-04-21 22:29:07,381 [INFO] 拡張機能からトリガー受信。
+2026-04-21 22:29:10,319 [INFO] 拡張機能からトリガー受信。
+2026-04-21 22:29:17,867 [INFO] OTPをクリップボードにコピーしました: 16****
+2026-04-21 22:29:17,867 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-21 22:29:21,809 [INFO] 拡張機能からトリガー受信。
+2026-04-21 22:29:21,809 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-21 22:29:22,692 [INFO] 拡張機能からトリガー受信。
+2026-04-21 22:29:22,692 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-21 23:54:06,918 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-21 23:54:08,684 [INFO] IMAP接続確立。
+2026-04-26 14:09:10,130 [INFO] OTP Watcher v2 起動 (メール: kotakotalailac@icloud.com, ポート: 18924)
+2026-04-26 14:09:12,144 [INFO] IMAP接続確立。
+2026-04-26 14:10:19,118 [INFO] 拡張機能からトリガー受信。
+2026-04-26 14:10:19,118 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-26 14:10:19,119 [WARNING] IMAPポーリングエラー: socket error: [WinError 10054] 既存の接続はリモート ホストに強制的に切断されました。。再接続します。
+2026-04-26 14:10:19,120 [INFO] 拡張機能からトリガー受信。
+2026-04-26 14:10:20,797 [INFO] IMAP接続確立。
+2026-04-26 14:16:19,714 [INFO] 拡張機能からトリガー受信。
+2026-04-26 14:16:20,770 [INFO] 拡張機能からトリガー受信。
+2026-04-26 14:16:26,900 [INFO] OTPをクリップボードにコピーしました: 55****
+2026-04-26 14:16:26,900 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-26 14:16:38,967 [INFO] 拡張機能からトリガー受信。
+2026-04-26 14:16:38,967 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-26 14:16:39,234 [INFO] 拡張機能からトリガー受信。
+2026-04-26 14:16:39,234 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-26 14:41:23,147 [INFO] 拡張機能からトリガー受信。
+2026-04-26 14:41:23,147 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-26 14:41:46,633 [INFO] 拡張機能からトリガー受信。
+2026-04-26 14:42:42,936 [INFO] 拡張機能からトリガー受信。
+2026-04-26 15:00:46,714 [WARNING] IMAPポーリングエラー: command: FETCH => socket error: EOF。再接続します。
+2026-04-26 15:00:48,189 [INFO] IMAP接続確立。
+2026-04-26 15:11:24,398 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-26 15:11:24,398 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-26 15:38:51,108 [WARNING] IMAPポーリングエラー: command: NOOP => socket error: EOF。再接続します。
+2026-04-26 15:38:52,795 [INFO] IMAP接続確立。
+2026-04-26 15:41:25,991 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-26 17:18:39,635 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-26 17:18:41,115 [INFO] IMAP接続確立。
+2026-04-26 17:22:44,926 [INFO] 拡張機能からトリガー受信。
+2026-04-26 17:22:44,926 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-26 17:22:45,175 [INFO] 拡張機能からトリガー受信。
+2026-04-26 17:23:57,763 [WARNING] IMAPポーリングエラー: command: FETCH => socket error: EOF。再接続します。
+2026-04-26 17:23:59,399 [INFO] IMAP接続確立。
+2026-04-26 17:52:46,165 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-26 17:52:46,166 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-26 18:58:12,892 [WARNING] IMAPポーリングエラー: command: FETCH => socket error: EOF。再接続します。
+2026-04-26 18:58:14,412 [INFO] IMAP接続確立。
+2026-04-26 18:58:15,390 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-26 21:09:35,325 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-26 21:09:36,873 [INFO] IMAP接続確立。
+2026-04-26 22:05:59,831 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-26 22:06:01,563 [INFO] IMAP接続確立。
+2026-04-26 22:20:27,281 [INFO] 拡張機能からトリガー受信。
+2026-04-26 22:20:27,281 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-26 22:20:28,376 [INFO] 拡張機能からトリガー受信。
+2026-04-26 22:20:29,057 [INFO] 拡張機能からトリガー受信。
+2026-04-26 23:22:19,000 [WARNING] IMAPポーリングエラー: The read operation timed out。再接続します。
+2026-04-26 23:22:22,103 [INFO] IMAP接続確立。
+2026-04-26 23:22:23,410 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-26 23:22:23,411 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-27 00:48:03,701 [WARNING] IMAPポーリングエラー: command: NOOP => socket error: EOF。再接続します。
+2026-04-27 00:48:03,767 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 00:48:03,768 [ERROR] IMAP再接続失敗。IDLEに戻ります。
+2026-04-27 00:48:04,781 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 00:48:05,785 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 00:48:06,815 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 04:32:11,428 [ERROR] IMAP接続失敗: [WinError 10054] 既存の接続はリモート ホストに強制的に切断されました。
+2026-04-27 04:32:13,692 [INFO] IMAP接続確立。
+2026-04-27 10:03:14,212 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-27 10:27:20,877 [INFO] IMAP接続確立。
+2026-04-27 10:27:34,418 [INFO] 拡張機能からトリガー受信。
+2026-04-27 10:27:34,418 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-27 10:27:42,364 [INFO] 拡張機能からトリガー受信。
+2026-04-27 10:27:49,873 [INFO] OTPをクリップボードにコピーしました: 62****
+2026-04-27 10:27:49,873 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-27 10:27:53,757 [INFO] 拡張機能からトリガー受信。
+2026-04-27 10:27:53,757 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-27 10:27:54,007 [INFO] 拡張機能からトリガー受信。
+2026-04-27 10:27:54,007 [INFO] クールダウン中のためトリガーをスキップ。
+2026-04-27 10:33:16,210 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-27 10:33:17,693 [INFO] IMAP接続確立。
+2026-04-27 11:13:50,893 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-27 11:13:52,785 [INFO] IMAP接続確立。
+2026-04-27 11:18:21,526 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-27 11:18:23,651 [INFO] IMAP接続確立。
+2026-04-27 11:26:20,105 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-27 11:26:21,938 [INFO] IMAP接続確立。
+2026-04-27 12:16:44,319 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-27 12:16:44,335 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 12:16:45,339 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 12:16:46,346 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 12:16:47,384 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 12:16:48,394 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 12:38:30,734 [INFO] IMAP接続確立。
+2026-04-27 12:40:50,726 [INFO] 拡張機能からトリガー受信。
+2026-04-27 12:40:50,726 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-27 12:40:54,429 [INFO] 拡張機能からトリガー受信。
+2026-04-27 12:40:55,014 [INFO] 拡張機能からトリガー受信。
+2026-04-27 13:05:48,855 [WARNING] IMAPポーリングエラー: socket error: [WinError 10054] 既存の接続はリモート ホストに強制的に切断されました。。再接続します。
+2026-04-27 13:05:50,411 [INFO] IMAP接続確立。
+2026-04-27 13:10:52,504 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-27 13:10:52,504 [INFO] SAML URLへのアクセスを検知。メールポーリングを開始します。
+2026-04-27 13:12:58,608 [WARNING] IMAPポーリングエラー: The read operation timed out。再接続します。
+2026-04-27 13:13:34,112 [INFO] IMAP接続確立。
+2026-04-27 13:22:20,665 [WARNING] IMAPポーリングエラー: command: SEARCH => socket error: EOF。再接続します。
+2026-04-27 13:22:26,903 [INFO] IMAP接続確立。
+2026-04-27 13:40:54,298 [WARNING] OTPメール待機タイムアウト (1800秒)
+2026-04-27 14:05:14,938 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-27 14:05:20,510 [INFO] IMAP接続確立。
+2026-04-27 14:52:01,619 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-27 14:52:01,623 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 14:52:02,637 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 14:52:03,652 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 14:52:04,683 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 15:11:23,706 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 15:11:36,740 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 15:11:49,794 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 15:12:00,905 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 15:12:05,388 [ERROR] IMAP接続失敗: [WinError 10013] アクセス許可で禁じられた方法でソケットにアクセスしようとしました。
+2026-04-27 15:12:18,534 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 15:12:23,653 [INFO] IMAP接続確立。
+2026-04-27 15:21:20,418 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-27 15:21:22,966 [INFO] IMAP接続確立。
+2026-04-27 15:34:17,548 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-27 15:34:21,970 [INFO] IMAP接続確立。
+2026-04-27 16:01:51,568 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-27 16:02:03,622 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 16:02:16,686 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 16:02:29,728 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 16:02:42,776 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 16:02:55,829 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 16:03:08,866 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 16:03:21,913 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 16:03:34,958 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 16:03:47,999 [ERROR] IMAP接続失敗: [Errno 11001] getaddrinfo failed
+2026-04-27 16:04:00,561 [INFO] IMAP接続確立。
+2026-04-27 16:08:49,802 [INFO] IMAP接続切断を検知。再接続します。
+2026-04-27 16:08:52,761 [INFO] IMAP接続確立。

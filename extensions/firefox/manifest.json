@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "佐大OTP Trigger",
+  "version": "1.0",
+  "description": "佐賀大学SAML URLへのアクセスを検知してOTP取得をトリガー",
+  "permissions": ["webNavigation", "http://localhost:18924/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "saga-otp-trigger@localhost"
+    }
+  }
+}
